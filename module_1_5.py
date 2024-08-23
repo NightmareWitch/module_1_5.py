@@ -6,6 +6,10 @@ immutable_var = (5, 8, 'd', 'dog') + (57, 'cat')
 print(immutable_var)
 immutable_var = (5, 8, 'd', 'dog') * 7
 print(immutable_var)
+immutable_var [1]
+print(immutable_var)
+immutable_var [2] = 485
+print(immutable_var)
 
 mutable_list = [25, 8, 'a', 'morning', 'friday']
 print(mutable_list)
